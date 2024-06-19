@@ -1,0 +1,39 @@
+@media(max-width:991px){
+    aside .cancelBtn{
+        
+        display: block;
+    
+    }
+    aside{
+        transform: translateX(-100%);
+        transition: 0.3s;
+    }
+    .active aside{
+        transform: translateX(0%);
+        transition: 0.8s;
+    }
+    .sidebar-Bg{
+       
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transform: 0.3s;
+    }
+    .active .sidebar-Bg{
+        opacity: 1;
+        visibility: visible;
+        transition: 0.5s;
+    }
+}
+@media(max-width:575px){
+    nav .menu{
+        width: 20%;
+        
+    }
+    nav .profileInfo{
+        width: 80%;
+    
+       
+    }
+
+}
